@@ -1,0 +1,41 @@
+.game-container{
+  width:95%;
+  height:650px;
+  margin:20px auto;
+  display:grid;
+  gap:10px;
+  grid-template-rows:repeat(2, 1fr);
+  grid-template-columns:repeat(5, 1fr);
+}
+
+.memory-card{
+  background-color:whitesmoke;
+  border-radius:10px;
+  display:flex;
+  flex-direction:column;
+}
+
+.memory-card *{
+  flex:1 1 0%;
+  padding:10px 0;
+}
+
+.memory-card img{
+  width:90%;
+  margin:0 auto;
+}
+
+.memory-card h1{
+  text-align:center;
+}
+
+.memory-card:hover{
+  background-color:white;
+  cursor:pointer;
+  box-shadow:5px 10px 10px #888888;
+}
+
+.text{
+  color: white;
+  margin-left:15px ;
+}
